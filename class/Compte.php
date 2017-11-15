@@ -17,7 +17,7 @@ class Compte
     $this->depassementAutoriser = $depassementAutoriser;
     $this->setMontantDebit = ($solde); 
     if($solde == 0 ){
-        $this->setSolde("Attention");
+        $this->setSolde("0");
     }elseif($solde < 0 ){
         $this->setSolde("Credit"); 
     }
