@@ -15,7 +15,7 @@ class PersonneManager
       echo "Instanciation";
       self::$instance = new PersonneManager();
     }
-
+    
     return self::$instance;
   }
 

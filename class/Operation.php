@@ -15,7 +15,6 @@ public function __construct($montant, $commentaire)
     }else {
         $this->setSens("Debit"); 
     }
-    // $this->setSens = ($sens);
     $this->setCommentaire = ($commentaire);
 }
 
